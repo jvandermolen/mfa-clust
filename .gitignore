@@ -1,0 +1,28 @@
+#Ignore data files except a couple of examples
+data/*
+!data/sim/
+data/sim/*
+!data/sim/simQ25P226.Rdata
+!data/sim/simQ60P226.Rdata
+
+#Ignore slurm files
+slurm/
+
+#Ignore SUGSVarSel
+SUGSVarSel/
+
+#Ignore test file
+test.R
+
+#Ignore ex2 and TCPA-related data and code
+IMIFA/ex2*
+IMIFA/*TCPA.R
+
+#Ignore mcmc and res folders except example
+IMIFA/mcmc/*
+!IMIFA/mcmc/mcmcQ25P226_i1e3Q30.Rdata
+IMIFA/res/*
+!IMIFA/res/resQ25P226_i1e3Q30.Rdata
+
+#Ignore pdf files
+*.pdf
