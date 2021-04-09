@@ -1,0 +1,3 @@
+[submodule "nsfa"]
+	path = nsfa
+	url = https://github.com/jvandermolen/nsfa
