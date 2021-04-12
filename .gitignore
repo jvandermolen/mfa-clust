@@ -24,5 +24,8 @@ IMIFA/mcmc/*
 IMIFA/res/*
 !IMIFA/res/resQ25P226_i1e3Q30.Rdata
 
+#Ignore output folder for infinitefactor package
+infinitefactor/out/*
+
 #Ignore pdf files
 *.pdf
